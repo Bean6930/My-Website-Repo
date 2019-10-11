@@ -57,6 +57,20 @@ background-color: #86FA63;
   background-color: #78C8FB;
 }
 /*end nav bar*/
+.mainpage {
+  align-items: center;
+}
+
+.title {
+  border: double;
+  border-color: #FAC220;
+}
+
+img {
+ border: 2px solid;
+ border-color: #FAC220;
+}
+
 body {
   background-color: #33353A;
 }
