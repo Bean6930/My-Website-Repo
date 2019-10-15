@@ -69,9 +69,15 @@ background-color: #86FA63;
   background-color: #78C8FB;
 }
 /*end nav bar*/
+.hide {
+visibility: hidden;
+}
+
 .mainpage {
   align-items: center;
 }
+
+
 
 .title {
   border: double;
@@ -88,7 +94,9 @@ body {
 }
 
 .body1 {
-  /*background-image: url(wilds13.jpg);*/
+  background-image: url(zoo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
@@ -118,10 +126,25 @@ p {
 }
 
 footer {
+  vertical-align: text-bottom;
   font-family: 'Amaranth', sans-serif;
   color: #E3E1DD;
+
 }
 
 a {
-  color: #78C8FB
+  color: #78C8FB;
+}
+
+.indexborder {
+  color: #E984E9;
+  border-style: solid;
+  border-color: #E984E9;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.indexborder:hover {
+  background-color: #E984E9;
+  color: #E3E1DD;
 }
