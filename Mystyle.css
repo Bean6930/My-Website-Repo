@@ -47,6 +47,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+  /*text-shadow: 2px 2px 1px #262426;*/
 }
 
 li a:hover:not(.active) {
@@ -94,7 +97,7 @@ body {
 }
 
 .body1 {
-  background-image: url(zoo2.jpg);
+  background-image: url(landscape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -105,8 +108,14 @@ body {
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
-    font-size: 33px;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 1px #000000;
+}
+
+.huge {
+  font-size: 75px;
+  letter-spacing: 4px;
 }
 
 h2 {
@@ -129,11 +138,16 @@ footer {
   vertical-align: text-bottom;
   font-family: 'Amaranth', sans-serif;
   color: #E3E1DD;
-
 }
 
 a {
   color: #78C8FB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005ac2;
+  text-decoration: underline;
 }
 
 .indexborder {
