@@ -97,9 +97,10 @@ body {
 }
 
 .body1 {
-  background-image: url(landscape.jpg);
+  background-image: url(mountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 99%;
   text-align: center;
 }
 
@@ -140,13 +141,34 @@ footer {
   color: #E3E1DD;
 }
 
+.indexhr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  margin-bottom: 1%;
+}
+
+.abouthr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32%;
+  margin-bottom: 1%;
+}
+
+.contacthr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28%;
+  margin-bottom: 1%;
+}
+
 a {
   color: #78C8FB;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005ac2;
+  color: #E984E9;
   text-decoration: underline;
 }
 
@@ -161,4 +183,5 @@ a:hover {
 .indexborder:hover {
   background-color: #E984E9;
   color: #E3E1DD;
+  text-decoration: none;
 }
