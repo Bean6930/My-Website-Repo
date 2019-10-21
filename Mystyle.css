@@ -19,7 +19,7 @@ main3 {
 }
 
 main4 {
-  color: #78C8FB;
+  color: #59EADF;
 }
 
 form {
@@ -69,7 +69,7 @@ background-color: #86FA63;
 }
 
 .active4 {
-  background-color: #78C8FB;
+  background-color: #59EADF ;
 }
 /*end nav bar*/
 .hide {
@@ -167,8 +167,23 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.email1:hover {
   color: #E984E9;
+  text-decoration: underline;
+}
+
+.email2:hover {
+  color: #FAC220;
+  text-decoration: underline;
+}
+
+.email3:hover {
+  color: #86FA63;
+  text-decoration: underline;
+}
+
+.email4:hover {
+  color: #59EADF ;
   text-decoration: underline;
 }
 
