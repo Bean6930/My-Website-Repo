@@ -52,7 +52,7 @@ li a {
   /*text-shadow: 2px 2px 1px #262426;*/
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active1):not(.active2):not(.active3):not(.active4)  {
   background-color: #BBBABA;
 }
 
@@ -108,6 +108,19 @@ body {
   background-image: linear-gradient(#33353A, black);
 }
 
+.body4 {
+  text-align: center;
+}
+
+input {
+  background-color: #59EADF;
+  width: 10%;
+  border: solid;
+  border-color: #031024;
+  border-width: 2px;
+  margin: 5px;
+}
+
 h1 {
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 30px;
@@ -139,6 +152,7 @@ footer {
   vertical-align: text-bottom;
   font-family: 'Amaranth', sans-serif;
   color: #E3E1DD;
+  text-align: center;
 }
 
 .indexhr {
