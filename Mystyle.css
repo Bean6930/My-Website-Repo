@@ -11,7 +11,7 @@ main1 {
 }
 
 main2 {
-  color:#FAC220;
+  color: #FAC220;
 }
 
 main3 {
@@ -25,8 +25,9 @@ main4 {
 form {
   color: #E3E1DD;
 }
+
 /*begin nav bar*/
- nav ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,7 +53,7 @@ li a {
   /*text-shadow: 2px 2px 1px #262426;*/
 }
 
-li a:hover:not(.active1):not(.active2):not(.active3):not(.active4)  {
+li a:hover:not(.active1):not(.active2):not(.active3):not(.active4) {
   background-color: #BBBABA;
 }
 
@@ -65,22 +66,21 @@ li a:hover:not(.active1):not(.active2):not(.active3):not(.active4)  {
 }
 
 .active3 {
-background-color: #86FA63;
+  background-color: #86FA63;
 }
 
 .active4 {
-  background-color: #59EADF ;
+  background-color: #59EADF;
 }
+
 /*end nav bar*/
 .hide {
-visibility: hidden;
+  visibility: hidden;
 }
 
 .mainpage {
   align-items: center;
 }
-
-
 
 .title {
   border: double;
@@ -88,8 +88,8 @@ visibility: hidden;
 }
 
 img {
- border: 2px solid;
- border-color: #FAC220;
+  border: 2px solid;
+  border-color: #FAC220;
 }
 
 body {
@@ -122,9 +122,9 @@ input {
 }
 
 h1 {
-    font-family: 'Lexend Zetta', sans-serif;
-    font-size: 30px;
-    text-shadow: 4px 4px 1px #000000;
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 1px #000000;
 }
 
 .huge {
@@ -197,7 +197,7 @@ a {
 }
 
 .email4:hover {
-  color: #59EADF ;
+  color: #59EADF;
   text-decoration: underline;
 }
 
