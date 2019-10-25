@@ -5,7 +5,7 @@ style {
 img {
   width: 28%;
 }
-
+/* begin main designs */
 main1 {
   color: #E984E9;
 }
@@ -21,10 +21,28 @@ main3 {
 main4 {
   color: #59EADF;
 }
+/* end main designs */
 
+/* begin form design */
 form {
   color: #E3E1DD;
 }
+
+.formboxes {
+  padding-left: 4px;
+  padding-right: 45px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.submitbutton {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* end form design */
 
 /*begin nav bar*/
 nav ul {
@@ -91,7 +109,7 @@ img {
   border: 2px solid;
   border-color: #FAC220;
 }
-
+/* begin body designs */
 body {
   background-color: #33353A;
 }
@@ -111,6 +129,7 @@ body {
 .body4 {
   text-align: center;
 }
+/*end body designs */
 
 input {
   background-color: #59EADF;
@@ -148,6 +167,17 @@ p {
   color: #E3E1DD;
 }
 
+.aboutparagraph {
+  border-style: double;
+  border-color: #86FA63;
+  padding: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-spacing: 5px 5px;
+}
+
 footer {
   vertical-align: text-bottom;
   font-family: 'Amaranth', sans-serif;
@@ -175,7 +205,7 @@ footer {
   margin-top: 28%;
   margin-bottom: 1%;
 }
-
+/* begin link designs */
 a {
   color: #78C8FB;
   text-decoration: none;
@@ -214,3 +244,4 @@ a {
   color: #E3E1DD;
   text-decoration: none;
 }
+/*end link designs */
