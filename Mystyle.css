@@ -6,19 +6,19 @@ img {
   width: 28%;
 }
 /* begin main designs */
-main1 {
+.main1 {
   color: #E984E9;
 }
 
-main2 {
+.main2 {
   color: #FAC220;
 }
 
-main3 {
+.main3 {
   color: #86FA63;
 }
 
-main4 {
+.main4 {
   color: #59EADF;
 }
 /* end main designs */
@@ -92,10 +92,16 @@ li a:hover:not(.active1):not(.active2):not(.active3):not(.active4) {
 }
 
 /*end nav bar*/
-.hide {
-  visibility: hidden;
+/* scrern reader only */
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
-
+/* end screen reader only */
 .mainpage {
   align-items: center;
 }
@@ -144,6 +150,8 @@ h1 {
   font-family: 'Lexend Zetta', sans-serif;
   font-size: 30px;
   text-shadow: 4px 4px 1px #000000;
+  position: relative;
+  margin-top: 60px;
 }
 
 .huge {
