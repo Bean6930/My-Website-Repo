@@ -23,11 +23,8 @@ img {
 /* begin form design */
 form {
   color: #E3E1DD;
-  display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 50px 50px 25px;
 }
-/*
+
 .formboxes {
   padding-left: 4px;
   padding-right: 45px;
@@ -44,7 +41,7 @@ form {
 */
 /* end form design */
 /*begin nav bar*/
-nav ul {
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
