@@ -38,16 +38,16 @@ form {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-*/
+
 /* end form design */
 /*begin nav bar*/
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #DBDADA;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -128,6 +128,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr 100px;
+  width: 100%;
 }
 
 .body2 {
