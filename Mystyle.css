@@ -52,11 +52,12 @@ nav ul {
   width: 100%;
 }
 
-li {
+nav li {
   float: left;
+  list-style-type: inherit;
 }
 
-li a {
+nav li a {
   display: block;
   color: #686661;
   text-align: center;
@@ -66,7 +67,7 @@ li a {
   font-size: 15px;
 }
 
-li a:hover:not(.active1):not(.active2):not(.active3):not(.active4) {
+nav li a:hover:not(.active1):not(.active2):not(.active3):not(.active4) {
   background-color: #BBBABA;
 }
 
