@@ -20,6 +20,13 @@ img {
 }
 
 /* end main designs */
+/* media queries */
+@media only screen and (max-width: 600px) {
+  img {
+  width: 90%;
+  }
+}
+/* end medis queries */
 /* begin form design */
 form {
   color: #E3E1DD;
