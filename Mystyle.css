@@ -97,7 +97,7 @@ nav li a:hover:not(.active1):not(.active2):not(.active3):not(.active4) {
 }
 
 /*end nav bar*/
-/* scrern reader only */
+/* screen reader only */
 .hidden {
   position: absolute;
   top: auto;
